@@ -1,0 +1,63 @@
+.dish-item-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  .dish-image {
+    width: 70%;
+  }
+  .dish-details {
+    flex-grow: 1;
+  }
+  
+  .dish-type-icon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .veg-icon {
+    background-color: #28a745;
+  }
+  
+  .non-veg-icon {
+    background-color: #dc3545;
+  }
+  
+  .dish-details h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .dish-details p {
+    color: #6c757d;
+    margin: 3px 0;
+  }
+  
+  .quantity-controller {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .quantity-controller button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f1f3f5;
+    cursor: pointer;
+  }
+  
+  .quantity-controller p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
